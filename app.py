@@ -2,6 +2,9 @@ import os
 from flask import Flask
 app = Flask(__name__)
 
+# color = "green"
+# color = os.environ.get('APP_COLOR')
+
 @app.route("/")
 def main():
     return "Welcome!"
