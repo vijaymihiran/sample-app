@@ -11,7 +11,7 @@ def main():
 
 @app.route("/hello")
 def main():
-    return "Hello!"
+    return "Hello there!"
 
 @app.route('/how are you')
 def hello():
